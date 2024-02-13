@@ -43,7 +43,7 @@ export class App extends Component {
           />
         </Section>
 
-        <Section title="Please live feedback">
+        <Section title="Statistics">
           {!!this.countTotalFeedback() && (
             <Statistics
               good={good}
